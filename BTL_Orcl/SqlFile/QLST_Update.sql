@@ -6,7 +6,7 @@ alter table Users drop column CreateDate;
 alter table Users add(
     Email varchar2(50) not null,
     LastLogin date
-)
+);
 
 alter table Products drop column Detail;
 alter table Products drop column LinkProduct;
@@ -19,7 +19,7 @@ alter table Products drop column ExpirationDate;
 alter table Products add(
     ProductionDate date not null,
     ExpirationDate date not null
-)
+);
 
 create table PriceHistory(
     PriceID varchar2(30) not null,
@@ -27,7 +27,7 @@ create table PriceHistory(
     StartDate date not null,
     EndDate date,
     ProductID varchar2(30) not null
-)
+);
 
 alter table Clients add ClientType int not null;
 alter table Clients rename column FullName to ClientName;
@@ -45,7 +45,7 @@ create table SalaryHistory(
     EndDate date,
     StaffID varchar2(30) not null,
     JobID varchar2(30) not null
-)
+);
 
 drop table OrderDetail;
 drop table Orders;
