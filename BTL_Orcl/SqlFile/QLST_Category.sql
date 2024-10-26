@@ -3,10 +3,11 @@
 --------------------------------------------------------
 REM INSERTING into QLST.CATEGORIES
 SET DEFINE OFF;
-Insert into QLST.CATEGORIES (CATEGORYID,CATEGORYTITLE,DESCRIPTION) values ('C001','?? u?ng','C�c lo?i n??c u?ng');
-Insert into QLST.CATEGORIES (CATEGORYID,CATEGORYTITLE,DESCRIPTION) values ('C002','B�nh k?o','C�c lo?i b�nh, k?o');
-Insert into QLST.CATEGORIES (CATEGORYID,CATEGORYTITLE,DESCRIPTION) values ('C003','S?a','C�c s?n ph?m t? s?a');
-Insert into QLST.CATEGORIES (CATEGORYID,CATEGORYTITLE,DESCRIPTION) values ('C004','Rau c?','Rau c? t??i s?ng');
-Insert into QLST.CATEGORIES (CATEGORYID,CATEGORYTITLE,DESCRIPTION) values ('C005','B�nh m�','C�c lo?i b�nh m�, b�nh ng?t');
-Insert into QLST.CATEGORIES (CATEGORYID,CATEGORYTITLE,DESCRIPTION) values ('C006','Gia v?','C�c lo?i gia v? v� ph? gia n?u ?n');
-Insert into QLST.CATEGORIES (CATEGORYID,CATEGORYTITLE,DESCRIPTION) values ('C007','Th?t v� h?i s?n','Th?t t??i, c�, h?i s?n');
+Insert into QLST.CATEGORIES (CATEGORYID, CATEGORYTITLE, DESCRIPTION) values ('C001', 'Đồ uống', 'Các loại nước uống');
+Insert into QLST.CATEGORIES (CATEGORYID, CATEGORYTITLE, DESCRIPTION) values ('C002', 'Bánh kẹo', 'Các loại bánh, kẹo');
+Insert into QLST.CATEGORIES (CATEGORYID, CATEGORYTITLE, DESCRIPTION) values ('C003', 'Sữa', 'Các sản phẩm từ sữa');
+Insert into QLST.CATEGORIES (CATEGORYID, CATEGORYTITLE, DESCRIPTION) values ('C004', 'Rau củ', 'Rau củ tươi sống');
+Insert into QLST.CATEGORIES (CATEGORYID, CATEGORYTITLE, DESCRIPTION) values ('C005', 'Bánh mì', 'Các loại bánh mì, bánh ngọt');
+Insert into QLST.CATEGORIES (CATEGORYID, CATEGORYTITLE, DESCRIPTION) values ('C006', 'Gia vị', 'Các loại gia vị và phụ gia nấu ăn');
+Insert into QLST.CATEGORIES (CATEGORYID, CATEGORYTITLE, DESCRIPTION) values ('C007', 'Thịt và hải sản', 'Thịt tươi, cá, hải sản');
+
